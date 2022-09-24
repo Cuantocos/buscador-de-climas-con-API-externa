@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima al instante</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="logo"><a href="index.html">CLIMA.COM</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">Ajustes</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="form-climate">
+        <form>
+          <div class="climate-search">
+            <label for="">Region</label>
+            <input id="txt-search" type="text" class="form-control" />
+            <p>Ingrese la ciudad, provincia o pais para obtener el clima</p>
+          </div>
+          <button id="btn-search-climate">BUSCAR</button>
+        </form>
+      </section>
+      <section>
+        <div id="result"></div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
